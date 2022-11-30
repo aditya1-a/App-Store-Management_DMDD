@@ -113,6 +113,7 @@ Values
         (212, 103,'Messi','10/09/2017','18:56','03/05/2020','17:08:45'),
         (213, 107,'Ronaldo','09/07/2022','16:35','12/11/2022','18:56:32');
 
+-- do not insert data into Card_Details using below code, please use the stored procedure UserCardNumEncryption to insert data.
 
 INSERT into CARD_DETAILS (Card_Number, Profile_ID, Card_CVV, Name_On_Card)
 VALUES

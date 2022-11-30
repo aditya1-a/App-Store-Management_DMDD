@@ -416,7 +416,3 @@ SELECT * FROM APP
 SELECT * FROM Developer
 SELECT * FROM APPLICATION_CATAGORY
 
-INSERT into Developer VALUES (1011 , 'MakeMyTrip', 'info@mmt.com')
-
-INSERT INTO APP (APP_ID, Developer_ID, Catagory_ID,APP_Name,App_Catagory,APP_Size,APP_Version,APP_Language,APP_Downloads,APP_Released_Date,Device,Has_Subscription)
-VALUES (318,1011,121212,'MakeMyTrip','Travel',60.2,1.2,'Portugese',67897,'2020-02-11','Iphone','YES')
